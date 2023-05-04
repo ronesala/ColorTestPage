@@ -1,9 +1,7 @@
-
-
 function ClosePopUp(){
 	document.querySelector(".container").style.display="none";
 }
-setTimeout(ClosePopUp,3000)
+setTimeout(ClosePopUp,12000) //pēc cik sekundēm aizvērsies
 
 window.addEventListener("load" , function(){
     setTimeout(
