@@ -10,20 +10,26 @@
     <!-- css File -->
     <link rel="stylesheet" type="text/css" href="./style.css"/>
 
+    <meta http-equiv="refresh" content="10;URL=/transfer-page.html">
     <title>ColorTestPage</title>
 </head>
 
 <body>
-  <div class="bckg-pink">
-    <div class="container text-center">
-      <h1>Notiek ielāde</h1>
-      <p>Lūdzu uzgaidiet!</p>
-      <img src="./img/loading-gif.gif">
+  <div class="bckg-blue">
+    <a href="./index.html"><img id="ghostii" src="./img/ghostii-boii.gif"></a>
+      <div class="popup">
+        <div class="container-test border shadow p-3 mb-5 bg-white rounded text-center">
+          <h1 class="mt-4">Notiek ielāde</h1>
+          <h4 class="pt-3">Lūdzu uzgaidiet!</h4>
+          <img src="./img/loading-gif.gif">
+        </div>
     </div>
-  </div>
+    <button type="button" id="proceed" style="display: none;">proceed</button>
+</div>
 
     <!-- Js File -->
     <script src="./popup.js"></script>
 </body>
+
 
 </html>

@@ -1,21 +1,78 @@
-.container{
-  width: 500px;
-  height: 250px;
+.container-test{
+  width: 750px;
+  height: 400px;
   padding: 2rem;
   background-color: #fff;
   border-radius: 10px;
   display: none;
 }
 
-.bckg-pink{
+.popup{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: pink;
+  min-height: 94.7vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 94.7vh;
 }
 
 .h1
 {
   color: black;
+}
+
+/* background colors */
+
+.bckg-index
+{
+  background-color: white;
+  border-left: 3px;
+
+}
+
+.bckg-red
+{
+  background-color: red;
+}
+
+.bckg-black
+{
+  background-color: black;
+}
+
+.bckg-white
+{
+  background-color: white;
+}
+
+.bckg-blue
+{
+  background-color: blue;
+}
+
+.bckg-green
+{
+  background-color: green;
+}
+
+.bckg-yellow
+{
+  background-color: yellow;
+}
+
+/* ghost icon */
+
+#ghostii {
+  width: 50px;
+  padding-block-start: 2;
+  opacity: 0;
+}
+
+#ghostii:hover {
+  opacity: 1;
 }
