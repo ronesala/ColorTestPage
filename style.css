@@ -65,6 +65,28 @@
   background-color: yellow;
 }
 
+/* other background colors */
+
+.bckg-pink
+{
+  background-color: pink;
+}
+
+.bckg-orange
+{
+  background-color: orange;
+}
+
+.bckg-brown
+{
+  background-color: brown;
+}
+
+.bckg-gray
+{
+  background-color: gray;
+}
+
 /* ghost icon */
 
 #ghostii {
