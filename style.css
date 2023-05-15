@@ -38,31 +38,37 @@
 .bckg-red
 {
   background-color: rgb(255,0,0);
+/*  #FF0000  */
 }
 
 .bckg-black
 {
   background-color: rgb(0,0,0);
+/*  #000000  */
 }
 
 .bckg-white
 {
   background-color: rgb(255,255,255);
+/*  #FFFFFF  */
 }
 
 .bckg-blue
 {
   background-color: rgb(0,0,255);
+/*  #0099CC  */
 }
 
 .bckg-green
 {
   background-color: rgb(0,255,0);
+/*  #00A427  */
 }
 
 .bckg-yellow
 {
   background-color: rgb(255,255,0);
+/*  #FFFF33  */
 }
 
 /* other background colors */
